@@ -1,3 +1,16 @@
+# Prusa Firmware MK3 modified for 420mm max Z height - using Caribou3d frame
+
+I upgraded my Prusa MK3S Z height to 420mm using a Prusa MK3S I already had (actually, an MK3 clone) using [Caribou3d 420mm](https://caribou3d.com/en/upgrade-kits/197-1446-prusa-mk2-mk25s-mk3s-to-caribou-420-upgrade-kit.html) frame. Importantly, I used the original [Prusa MK3S firmware](https://github.com/prusa3d/Prusa-Firmware), not the firmware provided by Caribou3d - because Caribou3d firmware is expects you to use Caribou's X axis and extruder. I didn't want to assemble Caribou's X axis and extruder, I just wanted to increase my Prusa's Z height - so I'm taking (reusing) the X axis and the extruder from my Prusa MK3S. And it turned out that if I simply insert the Prusa MK3S X axis and extruder assembly onto the Caribou3d vertical lead screws and steel rods, Caribou3d's firmware will not pass XYZ calibration - because, apparently, Caribou3d X axis and extruder assembly sizes slightly differ from those of Prusa. However, taking Prusa MK3S original firmware and tweaking the maximum Z height to 420mm does the trick.
+
+Follow these steps to create the Caribou3d-and-Prusa-MK3s hybrid:
+1. Assemble the Caribou3d 420mm frame (the 8mm version). That includes assembling the frame, the Caribou3d's Y axis, the 420mm Z axis, the Einsy box, the LCD holder and the Delta power supply mount. Don't assemble the Caribou's X axis and the extruder. Mount the Prusa MK3S bed.
+2. Take your Prusa MK3S (or identical MK3S clone) X axis and the extruder (as one single piece), insert it into the Caribou3d 420mm frame's vertical lead screws and steel rods
+3. Take your Prusa MK3S Einsy board, LCD, Delta power supply and mount to the Caribou3d frame per Caribou3d assembly manual.
+
+![PXL_20210609_223254296](https://user-images.githubusercontent.com/9521508/121438173-6aace780-c938-11eb-8e10-5bf466c997e8.jpg)
+
+Download and flash the (.hex firmware from here)[https://github.com/iovsiann/Prusa-Firmware-420mm-Z-Height-Caribou/releases/tag/v3.10.0-420mm]
+
 # Prusa Firmware MK3
 
 This repository contains the source code and the development versions of the firmware running on the [Original Prusa i3](https://prusa3d.com/) MK3S/MK3/MK2.5S/MK2.5 line of printers.
