@@ -9,7 +9,7 @@ Follow these steps to create the Caribou3d-and-Prusa-MK3s hybrid:
 
 ![PXL_20210609_223254296](https://user-images.githubusercontent.com/9521508/121438173-6aace780-c938-11eb-8e10-5bf466c997e8.jpg)
 
-Download and flash the (.hex firmware from here)[https://github.com/iovsiann/Prusa-Firmware-420mm-Z-Height-Caribou/releases/tag/v3.10.0-420mm]
+Download and flash the [.hex firmware from here](https://github.com/iovsiann/Prusa-Firmware-420mm-Z-Height-Caribou/releases/tag/v3.10.0-420mm)
 
 # Prusa Firmware MK3
 
