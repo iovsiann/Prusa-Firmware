@@ -19,7 +19,7 @@
 #define DEVELOPER
 
 // Printer name
-#define CUSTOM_MENDEL_NAME "Prusa i3 MK3S"
+#define CUSTOM_MENDEL_NAME "Prusa i3 MK3S 420"
 
 // Electronics
 #define MOTHERBOARD BOARD_EINSY_1_0a
@@ -69,7 +69,7 @@
 #define X_MIN_POS 0
 #define Y_MAX_POS 212.5
 #define Y_MIN_POS -4 //orig -4
-#define Z_MAX_POS 210
+#define Z_MAX_POS 420
 #define Z_MIN_POS 0.15
 
 // Canceled home position
